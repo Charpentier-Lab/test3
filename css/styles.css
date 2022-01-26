@@ -1,0 +1,24 @@
+/* From https://css-tricks.com/box-sizing/ */
+
+html {
+    box-sizing: border-box;
+  *, *:before, *:after {
+    box-sizing: inherit;
+  } 
+
+
+/* Layout */
+
+.container {
+    float: left;
+    margin: auto auto;
+    width: 960px;
+    height: 720px;
+}
+
+/* Background Image of TV */
+body {
+  background-image: url("../images/tv-purple.jpg");
+  background-color: #cccccc;
+ }
+
